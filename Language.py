@@ -34,7 +34,7 @@ def sort_data(textfile):
                 filename = "Ok.txt"
             else:
                 filename = "Bad.txt"
-            pathlib.Path(filename).write_text(line)
-
+            #i want to put (line)(the variable) as a new line in the texfile (filename)
+            print(filename)
 
 sort_data(textfile)
